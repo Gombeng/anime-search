@@ -38,7 +38,7 @@ export default function AnimeCard({
           loading="lazy"
         />
         <Box my={2}>
-          <Heading fontWeight={600} fontSize={"xs"} lineHeight={1.5} mb={2}>
+          <Heading fontWeight={600} fontSize={"sm"} lineHeight={1.5} mb={2}>
             {anime.title}
           </Heading>
           {anime.score ? (

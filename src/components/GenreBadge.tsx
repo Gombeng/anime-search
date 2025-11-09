@@ -23,7 +23,7 @@ export default function GenreBadge({ genres }) {
   return (
     <HStack wrap="wrap" gap={2}>
       {genres.map((genre) => (
-        <Badge key={genre.mal_id} size="xs" colorPalette={getColor(genre.name)}>
+        <Badge key={genre.mal_id} size="sm" colorPalette={getColor(genre.name)}>
           {genre.name}
         </Badge>
       ))}

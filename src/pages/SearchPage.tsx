@@ -61,7 +61,7 @@ export default function SearchPage() {
         )}
 
         {isNotfound && (
-          <Box p={10} maxW={"xs"} textAlign={"center"}>
+          <Box p={10} maxW={"sm"} textAlign={"center"}>
             <Heading fontSize={"14px"} fontWeight={600} mb={2}>
               {localQuery}
             </Heading>

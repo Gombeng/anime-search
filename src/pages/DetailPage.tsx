@@ -39,7 +39,7 @@ export default function DetailPage() {
   return (
     <Container py={4} maxW="4xl">
       <Link to={"/"}>
-        <Button mb={4} size={"xs"} fontWeight={600} gap={2}>
+        <Button mb={4} size={"sm"} fontWeight={600} gap={2}>
           <BiArrowBack />
           Back
         </Button>
@@ -78,7 +78,7 @@ export default function DetailPage() {
               <Button
                 size={"sm"}
                 colorPalette={"red"}
-                fontSize={"xs"}
+                fontSize={"sm"}
                 fontWeight={600}
                 gap={3}
               >
@@ -87,7 +87,7 @@ export default function DetailPage() {
               </Button>
             </CLink>
             <CLink href={detail.url} target="_blank">
-              <Button size={"sm"} fontSize={"xs"} fontWeight={600} gap={3}>
+              <Button size={"sm"} fontSize={"sm"} fontWeight={600} gap={3}>
                 See More
               </Button>
             </CLink>

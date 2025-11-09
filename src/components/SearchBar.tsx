@@ -14,7 +14,7 @@ export default function SearchBar({ value, onChange }: Props) {
 
   const endElement = value ? (
     <CloseButton
-      size="xs"
+      size="sm"
       onClick={() => {
         onChange("");
         inputRef.current?.focus();
@@ -29,7 +29,7 @@ export default function SearchBar({ value, onChange }: Props) {
         placeholder="Search anime..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        size={{ base: "xs", md: "md" }}
+        size={{ base: "sm", md: "md" }}
         variant="subtle"
         aria-label="Search anime"
       />

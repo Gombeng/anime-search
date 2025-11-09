@@ -24,13 +24,13 @@ export default function PaginationComp({
       onPageChange={(e) => onPageChange(e.page)}
     >
       {isMobile ? (
-        <ButtonGroup gap="4" size={"xs"} variant="outline">
+        <ButtonGroup gap="4" size={"sm"} variant="outline">
           <Pagination.PrevTrigger asChild>
             <IconButton>
               <HiChevronLeft />
             </IconButton>
           </Pagination.PrevTrigger>
-          <Pagination.PageText fontSize={"xs"} />
+          <Pagination.PageText fontSize={"sm"} />
           <Pagination.NextTrigger asChild>
             <IconButton>
               <HiChevronRight />
@@ -38,7 +38,7 @@ export default function PaginationComp({
           </Pagination.NextTrigger>
         </ButtonGroup>
       ) : (
-        <ButtonGroup variant="ghost" size={"xs"} gap={4}>
+        <ButtonGroup variant="ghost" size={"sm"} gap={4}>
           <Pagination.PrevTrigger asChild>
             <IconButton
               disabled={page === 1}

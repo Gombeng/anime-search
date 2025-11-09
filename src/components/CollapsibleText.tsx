@@ -28,7 +28,7 @@ export default function CollapsibleText({
       </Collapsible.Content>
 
       <Collapsible.Trigger asChild mt="2">
-        <Button variant="plain" size="xs" color={"whiteAlpha.600"}>
+        <Button variant="plain" size="sm" color={"whiteAlpha.600"}>
           <Collapsible.Context>
             {(api) => (api.open ? "Read Less" : "Read More")}
           </Collapsible.Context>
